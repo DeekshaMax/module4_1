@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>JS</title>
+  </head>
+  <body>
+    <!--<input id="x">
+    <button id="go1">Convert</button>
+    <div id="result1">°F<div id="result"></div>
+    <input id="y">
+    <button id="go2">Convert</button>
+    <div id="result2">°C<div id="result"></div>
+
+    <script src="scripts/main.js"></script>-->
+    <p>
+      <label>Fahrenheit</label>
+      <input id="inputFahrenheit" type="number" placeholder="Fahrenheit"
+      oninput="temperatureConverter1(this.value)"
+      onchange="temperatureConverter1(this.value)">
+    </p>
+    <p><span id="outputCelsius"></span> °C</p>
+    <p>
+      <label>Celsius</label>
+      <input id="inputCelsius" type="number" placeholder="Celsius"
+      oninput="temperatureConverter2(this.value)"
+      onchange="temperatureConverter2(this.value)">
+    </p>
+    <p><span id="outputF"></span> °F</p>
+    <script src="scripts/main.js"></script>
+  </body>
+</html>
